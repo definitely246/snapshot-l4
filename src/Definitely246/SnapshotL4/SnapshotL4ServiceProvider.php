@@ -1,5 +1,7 @@
 <?php namespace Definitely246\SnapshotL4;
 
+use Definitely246\Snapshot\Snapshot;
+use Defintely246\Snapshot\PdfSnapshot;
 use Illuminate\Support\ServiceProvider;
 
 class SnapshotL4ServiceProvider extends ServiceProvider {
@@ -30,7 +32,7 @@ class SnapshotL4ServiceProvider extends ServiceProvider {
 	{
 		$this->app->bind('snapshot-l4', function()
 		{
-			return new Definitely246\Snapshot\Snapshot(new Defintely246\Snapshot\PdfSnapshot);
+			return new Snapshot(new PdfSnapshot);
 		});
 	}
 
