@@ -1,8 +1,8 @@
-<?php namespace Definitely246\SnapshotL4;
+<?php namespace Definitely246\SnapshotL4\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Snapshot extends Facade {
+class SnapshotFacade extends Facade {
 
     /**
      * Get the registered name of the component.
