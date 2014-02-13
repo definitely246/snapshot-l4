@@ -1,7 +1,7 @@
 <?php namespace Definitely246\SnapshotL4;
 
 use Definitely246\Snapshot\Snapshot;
-use Defintely246\Snapshot\PdfSnapshot;
+use Definitely246\Snapshot\PdfSnapshot;
 use Illuminate\Support\ServiceProvider;
 
 class SnapshotL4ServiceProvider extends ServiceProvider {
